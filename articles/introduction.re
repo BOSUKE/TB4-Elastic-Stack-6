@@ -35,7 +35,8 @@ Elastic社の公式URL
 == リポジトリとサポートについて
 本書に掲載されたコードと正誤表などの情報は以下のURLで公開しています。
 
-(ここにURLはいる）
+　
+https://github.com/Introduction-of-Elastic-Stack6/manuscript
 
 
 #@# リポジトリのURLを追記してください（山城）
