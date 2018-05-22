@@ -290,7 +290,7 @@ kibana      0:off   1:off   2:on    3:on    4:on    5:on    6:off
  ┗ log4j2.properties
 //}
 
-@<code>{/etc/elasticsearch}配下に3つのファイルが配置されてます。
+@<code>{/etc/elasticsearch}配下に3つのファイルが配置されています。
 Elasticsearchを構成する際には@<code>{jvm.options}と@<code>{elasticsearch.yml}を主に設定します。
 @<code>{log4j2.properties}は、ログの出力形式など変更が必要な際に設定してください。
 
