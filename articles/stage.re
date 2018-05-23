@@ -68,17 +68,6 @@ Logstashの設定ファイルは@<code>{/etc/logstash}に集約されていま�
 //}
 
 
-
-=== confファイルの配置場所について
-Logstashは、@<code>{logstash.yml}64行目に記載されているファイルをconfファイルとして読み込みます。
-@<list>{stage03_list02}をみて分かるとおり、@<code>{*.conf}となっているため、作成するconfファイルの拡張子は@<code>{.conf}とします。
-この設定は変更する理由が特にないので、デフォルト設定のままとします。
-
-//list[stage03_list02][logstash.ymlの64行目]{
-path.config: /etc/logstash/conf.d/*.conf
-//}
-
-
 === confファイルの準備
 Logstashを動かす前に簡単なconfファイルを作成します。
 confファイルの名前は、test01.confとします。

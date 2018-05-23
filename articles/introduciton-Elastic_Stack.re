@@ -55,7 +55,7 @@ SQLの方が普及率も高いので、さらにElasticsearchを便利に利用�
 さらに解析対象のサーバーが1台ならいいのですが、数十台では辛さしかありません。そこでLogstashの出番です。
 Logstashは各環境に散らばっているログを集め、指定した対象に連携できるツールです。ログの連携だけではなく、ログの加工機能も持ち合わせています@<fn>{introES-fn02}。
 
-//footnote[introES-fn02][Elastic Stackで作るBI環境 誰でもできるデータ分析入門（石井 葵著、インプレスR&D刊）}（@<href>{https://nextpublishing.jp/book/8889.html}）]
+//footnote[introES-fn02][Elastic Stackで作るBI環境 誰でもできるデータ分析入門（石井 葵著、インプレスR&D刊）（@<href>{https://nextpublishing.jp/book/8889.html}）]
 
 ログの取得というとファイルからの取得を思い浮かべますが、プラグインを利用することでAmazon s3やTwitterから直接データを取得することも可能です。
 
