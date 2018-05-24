@@ -1079,7 +1079,7 @@ Kibanaにアクセスするため、ブラウザを起動し、@<list>{logstash-
 @<code>{Global_IP}については、AWSから払い出されたグローバルIPアドレスを入力してください。
 
 //list[logstash-42][KibanaにアクセスするためのURL]{
-http:"Global_IP":5601
+http://"Global_IP":5601
 //}
 
 詳しい操作方法は「Kibanaを使ってデータを可視化してみる！」の章も参照してください。
